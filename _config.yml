@@ -9,7 +9,7 @@ gems: [jekyll-paginate]
 # Setup
 title:               Not First But Best
 tagline:             'hyesun03'
-description:         '운영하는듯 아닌듯한 과거 블로그 --> <a href="http://pigfig.tistory.com/">티스토리</a>, <a href="https://www.facebook.com/profile.php?id=100006834377767">페이스북</a>'
+description:         '운영하는듯 아닌듯한 과거 블로그 --> <a href="http://pigfig.tistory.com/">티스토리</a>, <a href="https://www.facebook.com/profile.php?id=100006834377767">페이스북</a><br>chsun0303@gmail.com'
 url:                 https://hyesun03.github.io/
 baseurl:             ''
 paginate:            5
