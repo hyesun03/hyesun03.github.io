@@ -7,10 +7,10 @@ relative_permalinks: false
 gems: [jekyll-paginate]
 
 # Setup
-title:               나를 위한 블로그
-tagline:             '최혜선'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Not First But Best
+tagline:             'hyesun03'
+description:         '운영하는듯 아닌듯한 과거 블로그 --> <a href="http://pigfig.tistory.com/">티스토리</a>, <a href="https://www.facebook.com/profile.php?id=100006834377767">페이스북</a>'
+url:                 https://hyesun03.github.io/
 baseurl:             ''
 paginate:            5
 

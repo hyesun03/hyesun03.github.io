@@ -4,27 +4,21 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  뚜렷하게 뭐 하나 판건 아니고 그냥 손 가는대로 이것 저것 했었습니다.
+  분명 공부하는 것이 재미는 있는데 종종 이 과에 적성이 맞는지 의문이 많이 듭니다.
+  고작 해봐야 2년 정도 설렁설렁 공부한거고 5년 뒤에는 음..이 정도면 괜찮다 싶은 개발자가 되고싶습니다.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## 간략한 자기소개
 
-There are currently two themes built on Poole:
+* 96년 3월 3일생
+* 14년 하반기 차량 간 블랙박스 영상 공유 시스템 개발
+* 15년 상반기 '차량환경에서의 사후 처리를 위한 블랙박스 영상 공유 시스템’ 국내논문 발표
+* 15년 쿼드콥터 제작
+* 15년 하반기 SEA Insight 창업 - OWLET 프로젝트
+* 16년 하반기 SW Maestro 7기 연수생
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+## 현재 목표
+* 능숙한 영어실력
+> 영어를 못한다는 생각은 안해봤는데 기술문서나 유툽 영상이나 블로그 글이나 죄다 영어라서 읽는데 속도가 나지 않아서 힘듭니다.
+그냥 읽을 줄 알고 들을 줄 안다는거랑 능숙하다는거랑 많이 다른듯..
