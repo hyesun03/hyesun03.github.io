@@ -10,4 +10,3 @@ title: reStructuredText
   성취하고자 하는 목적은 reStructuredText 문서를 유용한 정형화된 데이터 포맷으로 재가공 하는 것 입니다.
 
   [statemachine.py](http://docutils.sourceforge.net/docutils/statemachine.py)는 reStructuredText를 사용한 Python 모듈 예제입니다.
-  
