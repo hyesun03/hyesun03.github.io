@@ -15,23 +15,48 @@ title: reStructuredText
 여태 문서화라고 한다면 프로젝트가 끝나고 난 뒤에 .hwp 혹은 .pdf로 최종보고서 만들듯이 만드는게 전부였지만 이것은 바람직하지 않은 방법이라고 멘토님께서 말씀 해 주셨습니다.
 
 &nbsp;&nbsp;&nbsp;플젝을 떠나서 소마 사람들이랑 언젠가 몇 시간동안 '문서화'에 대해서 이야기를 한 적이 있어서 동기부여가 된 것도 있습니다.
-사실 반년만 지나도 내가 만든 코드를 다시 보면 기억이 가물가물한데 남한테 설명해주기란 더 어렵습니다.
-소마 면접볼때도 내가 플젝을 제대로 참여한 것이 분명 맞고 밤새서 열심히 삽질을 한 기억도 있지만 특정 질문은 제대로 기억이 안나서 당황했었습니다.
+사실 반년만 지나도 내가 만든 코드를 다시 보면 기억이 가물가물한데 남한테 설명해주는건 더 어려웠습니다.
 
 ## **직접 해보기**
 별도의 유틸 설치 없이 해 보고 싶으신 분들은 [여기](http://rst.ninjs.org/)에서 하시면 됩니다.
 
 ## **Inline Markup**
 
-| 평문  | 결과  | 설명  |  
-|---|---|---|
-| *emphasis*  | *emphasis*  |  이텔릭체 |
-| **strong emphasis**  | **strong emphasis**  | 볼드체  |
-| `interpreted text`  | 우측 설명 참고  |   |
-| ``inline literal``  | ``inline literal``  |   |
-| reference_  | reference_  |   |
-| `phrase reference`_  | `phrase reference`_  |   |
-| anonymous__  | anonymous__  |   |
-| _`inline internal target`  | _`inline internal target`  |   |
-|   |   |   |
-|   |   |   |
+![Inline Markup 표](./images/reST_InlineMarkup.png "option")
+
+* [anonymous관련한 stackoverflow글](http://stackoverflow.com/questions/5464627/how-to-have-same-text-in-two-links-with-restructured-text)
+
+`*`, `` ` ``, `|`, `_` 는 인라인 구분문자 입니다. 아직 제대로 안써봐서 레퍼런스만 보고는 무슨말인지 감이 잘 안잡힘.
+추후 내용 수정 및 덧붙일 예정.
+
+## **Escaping with Backslashes**
+
+## **Section Structure**
+
+## **Pharagraphs**
+
+## **Bullet Lists**
+
+## **Enumerated Lists**
+
+## **Definition Lists**
+
+## **Field Lists**
+
+## **Option Lists**
+
+## **Literal Blocks**
+
+## **Line Blocks**
+
+## **Block Quotes**
+
+## **Doctest Blocks**
+
+## **Table**
+
+## **Transitions**
+
+## **Explicit Markup**
+
+##
