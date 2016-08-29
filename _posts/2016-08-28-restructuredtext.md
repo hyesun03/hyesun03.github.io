@@ -18,4 +18,20 @@ title: reStructuredText
 사실 반년만 지나도 내가 만든 코드를 다시 보면 기억이 가물가물한데 남한테 설명해주기란 더 어렵습니다.
 소마 면접볼때도 내가 플젝을 제대로 참여한 것이 분명 맞고 밤새서 열심히 삽질을 한 기억도 있지만 특정 질문은 제대로 기억이 안나서 당황했었습니다.
 
-## **?**
+## **직접 해보기**
+별도의 유틸 설치 없이 해 보고 싶으신 분들은 [여기](http://rst.ninjs.org/)에서 하시면 됩니다.
+
+## **Inline Markup**
+
+| 평문  | 결과  | 설명  |  
+|---|---|---|
+| *emphasis*  | *emphasis*  |  이텔릭체 |
+| **strong emphasis**  | **strong emphasis**  | 볼드체  |
+| `interpreted text`  | 우측 설명 참고  |   |
+| ``inline literal``  | ``inline literal``  |   |
+| reference_  | reference_  |   |
+| `phrase reference`_  | `phrase reference`_  |   |
+| anonymous__  | anonymous__  |   |
+| _`inline internal target`  | _`inline internal target`  |   |
+|   |   |   |
+|   |   |   |
