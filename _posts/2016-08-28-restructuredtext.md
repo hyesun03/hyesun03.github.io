@@ -31,9 +31,11 @@ title: reStructuredText
 
 ## **Escaping with Backslashes**
 reST에서는 `*`, `` ` ``, `\`와 같이 특별한 의미를 가진 마크업 문자 그 자체를 얻기 위해서 backslash("\\")를 사용합니다. `\`를 얻고 싶으면 escaped backslash("\\\\")를 사용합니다.
+
 ![Escaping with Backslaches 표1](./images/reST_EscapeWithBackslashes_1.png)
 
 Python 문자열에서도 마찬가지입니다. 실질적인 reST의 사용을 위해서 모든 backslash문자들을 escape할 필요가 있습니다.
+
 ![Escaping with Backslaches 표2](./images/reST_EscapeWithBackslashes_2.png)
 
 ## **Section Structure**
