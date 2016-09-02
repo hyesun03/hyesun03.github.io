@@ -14,6 +14,7 @@ url:                 https://hyesun03.github.io/
 baseurl:             ''
 paginate:            1
 
+
 # About/contact
 author:
   name:              최혜선(Choi Hye Sun)
@@ -22,3 +23,7 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+#disqus
+disqus:              hyesun03
+comments:            true
