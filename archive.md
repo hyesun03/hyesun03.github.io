@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Archive
-commnets: false
 ---
 
 {% for post in site.posts %}

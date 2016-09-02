@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-comment: false
 ---
 ## **간략한 자기소개**
 
