@@ -23,3 +23,6 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+# disqus
+disqus_shortname:     hyesun03
