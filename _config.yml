@@ -24,6 +24,6 @@ author:
 # Custom vars
 version:             1.0.0
 
-#disqus
-disqus:              hyesun03
+# disqus
 comments:            true
+disqus:              hyesun03
