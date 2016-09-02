@@ -21,8 +21,9 @@
 
       <div class="container content">
         {{ content }}
-        {% include comments.html %}
+
       </div>
+      {% include comments.html %}
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
@@ -44,6 +45,5 @@
         }, false);
       })(document);
     </script>
-    <script id="dsq-count-scr" src="//hyesun03.disqus.com/count.js" async></script>
   </body>
 </html>
