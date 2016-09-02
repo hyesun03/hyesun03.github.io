@@ -23,7 +23,7 @@ comments: true
 
 ## **Inline Markup**
 
-![Inline Markup 표](./images/reST_InlineMarkup.png)
+![Inline Markup 표]({{ site.url }}/images/reST_InlineMarkup.png)
 
 * [anonymous관련한 stackoverflow글](http://stackoverflow.com/questions/5464627/how-to-have-same-text-in-two-links-with-restructured-text)
 
