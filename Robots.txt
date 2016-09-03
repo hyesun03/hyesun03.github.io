@@ -1,0 +1,9 @@
+User-agent: Googlebot
+User-agent: DAUMOA
+User-agent: NaverBot
+User-agent: ZumBot
+Allow: /
+User-agent: BadBot
+Disallow: /
+
+Sitemap: http://hyesun03.github.io/sitemap.xml
