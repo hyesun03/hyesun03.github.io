@@ -51,7 +51,7 @@ var disqus_config = function () {
 
 `_includes`폴더 아래에 `comments.html`라고 파일을 생성하고 disqus에서 제공해 주는 위의 코드를 붙였다.
 
-### 4. disqus 댓글 위치
+### 4. disqus 댓글 활성화
 {% raw %}
 ``` javascript
 <div class="container content">
@@ -60,7 +60,7 @@ var disqus_config = function () {
 </div>
 ```
 {% endraw %}
-Lanyon테마를 사용중이며 `_layouts`폴더 아래의 `default.html`에 위의 코드를 넣었다. include 해서 아까 만든 `comments.html`을 불러와 준다.
+`_layouts`폴더 아래의 `default.html`에 `comments.html`을 불러와 준다. 꼭 여기에 넣어야 하는건 아니고 적당히 댓글이 나왔으면 싶은곳에 include 해 준다. 여기까지 하고 보면 About, Archive 등.. 모든 글에 댓글시스템이 활성화되어있다. `comments.html` 코드의 위 아래에 `{{ "{% if page.comments " }}%}`, `{{ "{% endif " }}%}`를 붙여주자. 그렇게 하면 [YAML front matter](http://jekyllrb.com/docs/frontmatter/)에서 `comments: true`일 때만 댓글을 활성화 할 수 있다.
 
 ## **Google Analytics**  
 [Google Analytics](https://www.google.co.kr/intl/ko/analytics/)에 가입하자. 구글 계정이 있으면 그냥 로그인 하면 된다.
