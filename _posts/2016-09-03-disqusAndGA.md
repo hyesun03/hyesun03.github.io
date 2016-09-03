@@ -3,8 +3,9 @@ layout: post
 title: Jekyll에 Disqus와 Google Analytics 붙이기
 comments: true
 ---
-사람들이 내 블로그를 봐줘야 포스팅 하는 맛이 난다.  
-그래서 댓글을 달 수 있는 disqus와 사용자 통계를 내주는 GA를 붙이기로 했다.
+사람들이 내 블로그를 봐줘야 포스팅 하는 맛이 난다. 그래서 댓글을 달 수 있는 disqus와 사용자 통계를 내주는 GA를 붙이기로 했다.
+![tree]({{ site.url }}/images/disqus_0.png)
+위는 이번 작업이 끝나고 난 뒤의 디렉토리다.
 
 ## **Disqus**  
 
@@ -48,15 +49,42 @@ var disqus_config = function () {
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>                          
 ```
 
-`_includes`아래에 `comments.html`라고 파일을 생성하고 disqus에서 제공해 주는 위의 코드를 붙였다.
+`_includes`폴더 아래에 `comments.html`라고 파일을 생성하고 disqus에서 제공해 주는 위의 코드를 붙였다.
 
 ### 4. disqus 댓글 위치
-
-``` HTML
+{% raw %}
+``` javascript
 <div class="container content">
   {{ content }}
   {% include comments.html %}
 </div>
 ```
+{% endraw %}
+Lanyon테마를 사용중이며 `_layouts`폴더 아래의 `default.html`에 위의 코드를 넣었다. include 해서 아까 만든 `comments.html`을 불러와 준다.
 
-Lanyon테마를 사용중이어서 `_layouts`폴더 아래의 `default.html`에 위의 코드를 넣었다. `{% include comments.html %}`로 아까 만들었던 comments.html을 불러와 준다.
+## **Google Analytics**  
+[Google Analytics](https://www.google.co.kr/intl/ko/analytics/)에 가입하자. 구글 계정이 있으면 그냥 로그인 하면 된다.
+
+설명할건 없고.. 그냥 흐름대로 몇가지 작성하면 된다. GA에서 아래와 같은 코드를 제공 해 준다.
+``` javascript
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83629207-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+```
+`_includes`폴더 아래에 `google_analytics.html`라고 파일을 생성하고 GA에서 제공해 주는 위의 코드를 붙였다.
+
+{% raw %}
+``` javascript
+{% include head.html %}
+{% include google_analytics.html %}
+<body class="theme-base-08">
+```
+{% endraw %}
+앞서 disqus를 붙인 것 처럼 `default.html`의 `<body>`태그 바로 위에 `googld_anaytics.html`을 불러와준다. 아직 내 블로그가 검색이 되지 않아서 딱히 뭐 나오는건 없다.
