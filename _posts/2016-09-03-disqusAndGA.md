@@ -66,6 +66,7 @@ var disqus_config = function () {
 [Google Analytics](https://www.google.co.kr/intl/ko/analytics/)에 가입하자. 구글 계정이 있으면 그냥 로그인 하면 된다.
 
 설명할건 없고.. 그냥 흐름대로 몇가지 작성하면 된다. GA에서 아래와 같은 코드를 제공 해 준다.
+
 ``` javascript
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -78,8 +79,8 @@ var disqus_config = function () {
 
 </script>
 ```
-`_includes`폴더 아래에 `google_analytics.html`라고 파일을 생성하고 GA에서 제공해 주는 위의 코드를 붙였다.
 
+`_includes`폴더 아래에 `google_analytics.html`라고 파일을 생성하고 GA에서 제공해 주는 위의 코드를 붙였다.
 {% raw %}
 ``` javascript
 {% include head.html %}
