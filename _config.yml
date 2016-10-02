@@ -8,7 +8,7 @@ gems: [jekyll-paginate]
 
 # Setup
 title:               Not First But Best
-tagline:             'hyesun03'
+tagline:             'hyesun03(최혜선)'
 description:         'Archive에 들어가서 해당 포스트에 댓글을 남길 수 있습니다. <a href="https://www.facebook.com/profile.php?id=100006834377767">페이스북</a>, <br> chsun0303@gmail.com'
 url:                 https://hyesun03.github.io/
 baseurl:             ''
