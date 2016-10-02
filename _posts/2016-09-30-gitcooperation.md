@@ -11,7 +11,7 @@ comments: true
 3. 원하는 브랜치(lemon 이라고 하자)를 `checkout`한 뒤 작업한다.
 4. 내 fork에 lemon을 `push`한다.
 5. github에 들어가서 `pull request`를 만든다.
-6. pull 요청이 `merge`되고 lemon 브랜치는 `upsteam(target)` 저장소에서 사라진다.
+6. pull 요청이 `merge`되고 lemon 브랜치는 `upstream(target)` 저장소에서 사라진다.
 
 ## **원본의 업데이트 내역을 가져오고 합치기**
 &nbsp;&nbsp;&nbsp; clone을 하게 되면, github상에 `origin`이라고 디폴트 저장소가 생긴다. 아래의 명령어를 통해 내 remote를 확인 할 수 있다.
