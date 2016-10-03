@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git과 협업
+title: Github과 협업 1
 comments: true
 ---
 
@@ -44,6 +44,22 @@ Fast-forward
  create mode 100644 kboard/functional_test.py
 </pre>
 
+## **remote URL 변경**
+&nbsp;&nbsp;&nbsp; upstream의 주소를 바꿀 것이다. 아래는 변경 전이다.
+<pre>$ git remote -v
+origin	https://github.com/hyesun03/k-board.git (fetch)
+origin	https://github.com/hyesun03/k-board.git (push)
+upstream	https://github.com/darjeeling/k-board.git (fetch)
+upstream	https://github.com/darjeeling/k-board.git (push)</pre>
+&nbsp;&nbsp;&nbsp; 아래의 명령어를 통해서 url을 변경 할 수 있다.
+<pre>$ git remote set-url upstream https://github.com/kboard/kboard.git</pre>
+&nbsp;&nbsp;&nbsp; 변경된 것을 확인하자.
+<pre>$ git remote -v
+origin	https://github.com/hyesun03/k-board.git (fetch)
+origin	https://github.com/hyesun03/k-board.git (push)
+upstream	https://github.com/kboard/kboard.git (fetch)
+upstream	https://github.com/kboard/kboard.git (push)</pre>
+
 ## **특정 브랜치 pull 하기**
 &nbsp;&nbsp;&nbsp; pull은 fetch하고 merge까지 하는 것이다.
 <pre>$ git pull upstream feature/enable_ft</pre>
@@ -59,5 +75,5 @@ Fast-forward
 </pre>
 
 ## **pull request 요청하기**
-&nbsp;&nbsp;&nbsp; 작업을 한 뒤 commit하고 내 저장소에 push까지 했다. 이제 원본 저장소에 내가 작업 한 내역을 합쳐달라고 요청하는 것만 남았다. pull request는 터미널이 아닌 github 홈페이지에 들어가서 하는 것이다. 아래와 같이 `Compare & pull request`라는 버튼이 생긴다.
+&nbsp;&nbsp;&nbsp; 작업을 한 뒤 commit하고 내 저장소에 push까지 했다. 이제 원본 저장소에 내가 작업 한 내역을 합쳐달라고 요청하는 것만 남았다. pull request는 터미널이 아닌 github 홈페이지에 들어가서 하는 것이다. 아래와 같이 `Compare & pull request`라는 버튼이 생긴다. 해당 버튼을 누르면 pull request를 요청 할 수 있다.
 ![Compare & pull request 버튼 생김]({{ site.url }}/images/djangoTDD_7.png)
