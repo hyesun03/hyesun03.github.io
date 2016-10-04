@@ -145,6 +145,8 @@ squash cc5cbe1 3
 0bc0b56 commit 02
 d07bd6e commit 01
 bcf5524 first commit</pre>
+&nbsp;&nbsp;&nbsp; push할 때 `-f` 옵션을 줘야한다.
+<pre>$ git push -f</pre>
 
 ## **참고자료**
 * [http://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore](http://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore)

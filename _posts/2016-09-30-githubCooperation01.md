@@ -75,5 +75,9 @@ upstream	https://github.com/kboard/kboard.git (push)</pre>
 </pre>
 
 ## **pull request 요청하기**
-&nbsp;&nbsp;&nbsp; 작업을 한 뒤 commit하고 내 저장소에 push까지 했다. 이제 원본 저장소에 내가 작업 한 내역을 합쳐달라고 요청하는 것만 남았다. pull request는 터미널이 아닌 github 홈페이지에 들어가서 하는 것이다. 아래와 같이 `Compare & pull request`라는 버튼이 생긴다. 해당 버튼을 누르면 pull request를 요청 할 수 있다.
-![Compare & pull request 버튼 생김]({{ site.url }}/images/djangoTDD_7.png)
+&nbsp;&nbsp;&nbsp; 작업을 한 뒤 commit하고 내 저장소에 push까지 했다. 이제 원본 저장소에 내가 작업 한 내역을 합쳐달라고 요청하는 것만 남았다. pull request는 터미널이 아닌 github 홈페이지에 들어가서 하는 것이다. push를 하고 나면 아래와 같이 `Compare & pull request`라는 버튼이 생긴다. 해당 버튼을 누르면 pull request를 요청 할 수 있다.
+![Compare & pull request 버튼 생김]({{ site.url }}/images/git_00.png)
+&nbsp;&nbsp;&nbsp; full request를 작성하자.
+![open a pull request]({{ site.url }}/images/git_01.png)
+&nbsp;&nbsp;&nbsp; full request 작성이 끝나면 아래와 같은 화면을 볼 수 있다.
+![open a pull request]({{ site.url }}/images/git_02.png)
