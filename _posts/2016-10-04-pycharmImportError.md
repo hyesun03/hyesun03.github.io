@@ -8,7 +8,7 @@ comments: true
 1. 프로젝트의 최상단 디렉토리를 루트 디렉토리로 만들어준다.
 ![root directory로 만들기]({{ site.url }}/images/pycharm_0.png)
 2. `Preferences` 에서 **Add source roots to PYTHONPATH** 를 체크한다.
-![Add source roots to PYTHONPATH]({{ site.url }}/images/pycharm_0.png)
+![Add source roots to PYTHONPATH]({{ site.url }}/images/pycharm_1.png)
 
 ## **참고자료**
 * [http://stackoverflow.com/questions/21236824/unresolved-reference-issue-in-pycharm](http://stackoverflow.com/questions/21236824/unresolved-reference-issue-in-pycharm)
