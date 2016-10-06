@@ -3,7 +3,7 @@ layout: post
 title: Jekyll에 Disqus와 Google Analytics 붙이기
 comments: true
 ---
-사람들이 내 블로그를 봐줘야 포스팅 하는 맛이 난다. 그래서 댓글을 달 수 있는 disqus와 사용자 통계를 내주는 GA를 붙이기로 했다.
+&nbsp;&nbsp;&nbsp; 사람들이 내 블로그를 봐줘야 포스팅 하는 맛이 난다. 그래서 댓글을 달 수 있는 disqus와 사용자 통계를 내주는 GA를 붙이기로 했다.
 ![tree]({{ site.url }}/images/disqus_0.png)
 위는 이번 작업이 끝나고 난 뒤의 디렉토리다.
 
