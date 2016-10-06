@@ -21,7 +21,7 @@ Automatic merge failed; fix conflicts and then commit the result.</pre>
 &nbsp;&nbsp;&nbsp; conflict난 파일이 4개가 있다. 먼저 `kboard/kboard/urls.py`를 보자.
 ![tree]({{ site.url }}/images/git_03.png)
 &nbsp;&nbsp;&nbsp; conflict난 파일을 열어보면 이렇게 되어있다. HEAD와 아까 fetch받은것을 비교해서 보여준다. 꼭 최신것으로 할 필요는 없고 취사선택하면 된다.     
- 
+
 * `<<<<<<< HEAD`: 여기 아래로는 현재 브랜치에 있는 코드      
 * `=======`: 구분선     
 * `>>>>>>> upstream/master`: 합치려는 다른 브랜치의 코드(여기서는 upstream/master)      
@@ -35,7 +35,7 @@ Automatic merge failed; fix conflicts and then commit the result.</pre>
 >>>>>>> upstream/master
 </pre>
 
-&nbsp;&nbsp;&nbsp; 여기까지 하고 이대로 merge를 시도하면 당연히 안된다. 시키는대로 해보자.
+&nbsp;&nbsp;&nbsp; 여기까지 하고 이대로 merge를 시도하면 안된다. 시키는대로 해보자.
 <pre>$ git merge upstream/master
 error: Merging is not possible because you have unmerged files.
 hint: Fix them up in the work tree, and then use 'git add/rm &lt;file&gt;'
