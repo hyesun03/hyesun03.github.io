@@ -15,13 +15,13 @@ comments: true
 
 ## **django-summernote 붙이기**
 
-1. `django-summernote`는 아래의 명령어로 설치 할 수 있다.
+* `django-summernote`는 아래의 명령어로 설치 할 수 있다.
 
 ```bash
 $ pip install django-summernote
 ```
 
-2. `settings.py`에서 `INSTALLED_APP`에 `django_summernote`를 추가 해 준다.
+* `settings.py`에서 `INSTALLED_APP`에 `django_summernote`를 추가 해 준다.
 
 ```python
 INSTALLED_APPS = [
@@ -31,7 +31,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-3. `urls.py`에 경로를 추가 해 준다.
+* `urls.py`에 경로를 추가 해 준다.
 
 ```python
 urlpatterns = [
@@ -40,7 +40,7 @@ urlpatterns = [
 ]
 ```
 
-4. `settings.py`에 `MEDIA_URL`을 적당히 지정 해 준다. `SUMMERNOTE_CONFIG`는 일단 비워두었다.
+* `settings.py`에 `MEDIA_URL`을 적당히 지정 해 준다. `SUMMERNOTE_CONFIG`는 일단 비워두었다.
 
 ```python
 [...]
@@ -48,7 +48,7 @@ MEDIA_URL='/media/'
 SUMMERNOTE_CONFIG = {}
 ```
 
-5. 앱(board)을 생성하고 `board/models.py`에 아래의 모델을 추가 해 준다.    
+* 앱(board)을 생성하고 `board/models.py`에 아래의 모델을 추가 해 준다.    
 
 ```python
 from django_summernote import models as summer_model
@@ -58,7 +58,7 @@ class SummerNote(summer_model.Attachment):
     summer_field = summer_fields.SummernoteTextField(default='')
 ```
 
-6. `board/forms.py`파일을 추가한다.
+* `board/forms.py`파일을 추가한다.
 
 ```python
 from django_summernote import fields as summer_fields
@@ -71,7 +71,7 @@ class PostForm(forms.ModelForm):
            fields = ('fields', )
 ```
 
-7. 테스트를 위한 `new_post.html`파일이다. `{{ form|safe }}`로 summernote를 볼 수 있다.
+* 테스트를 위한 `new_post.html`파일이다. `{{ form|safe }}`로 summernote를 볼 수 있다.
 {% highlight html %}{% raw %}
 [...]
 <form method="post" action="{% url 'board:post_list' board.id %}">
@@ -84,4 +84,4 @@ class PostForm(forms.ModelForm):
 [...]
 {% endraw %}{% endhighlight %}
 
-8.
+*
