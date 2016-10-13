@@ -113,5 +113,7 @@ $ python manage.py makemigrations
 $ python manage.py migrate
 ```
 
-* 결과물은 아래와 같다. summernote까지 작업 한 [kboard](https://github.com/hyesun03/k-board/tree/d1498d997ce2d98bc3532ea334864df0a48b99be).
+* 결과물은 아래와 같다. summernote 붙여만 놓은  [kboard](https://github.com/hyesun03/k-board/tree/d1498d997ce2d98bc3532ea334864df0a48b99be).
 ![summernote 적용]({{ site.url }}/images/summernote_0.png)
+
+* 테스트 돌릴 때 에디터가 안보이면 `StaticLiveServerTestCase`를 사용하면 된다.
