@@ -15,12 +15,14 @@ comments: true
 
 ## **django-summernote 붙이기**
 
-1. `django-summernote`는 아래의 명령어로 설치 할 수 있다.     
+1. `django-summernote`는 아래의 명령어로 설치 할 수 있다.
+
 ```bash
 $ pip install django-summernote
 ```
 
 2. `settings.py`에서 `INSTALLED_APP`에 `django_summernote`를 추가 해 준다.
+
 ```python
 INSTALLED_APPS = [
 'django.contrib.admin',
@@ -30,6 +32,7 @@ INSTALLED_APPS = [
 ```
 
 3. `urls.py`에 경로를 추가 해 준다.
+
 ```python
 urlpatterns = [
     [...],
@@ -38,6 +41,7 @@ urlpatterns = [
 ```
 
 4. `settings.py`에 `MEDIA_URL`을 적당히 지정 해 준다. `SUMMERNOTE_CONFIG`는 일단 비워두었다.
+
 ```python
 [...]
 MEDIA_URL='/media/'
@@ -45,6 +49,7 @@ SUMMERNOTE_CONFIG = {}
 ```
 
 5. 앱(board)을 생성하고 `board/models.py`에 아래의 모델을 추가 해 준다.    
+
 ```python
 from django_summernote import models as summer_model
 from django_summernote import fields as summer_fields
@@ -54,6 +59,7 @@ class SummerNote(summer_model.Attachment):
 ```
 
 6. `board/forms.py`파일을 추가한다.
+
 ```python
 from django_summernote import fields as summer_fields
 from .models import SummerNote
