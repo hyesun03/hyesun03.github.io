@@ -19,5 +19,3 @@ In [3]: print(sys.version)
 [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.38)]</pre>
 
 &nbsp;&nbsp;&nbsp; [파이썬 인터프리터](http://khanrc.tistory.com/entry/%EB%8B%A4%EC%96%91%ED%95%9C-Python%EB%93%A4)
-
-## **BETTER WAY 2. PEP 8 스타일 가이드를 따르자**
