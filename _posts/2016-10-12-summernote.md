@@ -71,17 +71,47 @@ class PostForm(forms.ModelForm):
            fields = ('fields', )
 ```
 
-* 테스트를 위한 `new_post.html`파일이다. `{{ form|safe }}`로 summernote를 볼 수 있다.
-{% highlight html %}{% raw %}
+* 테스트를 위한 `board/template/new_post.html`파일이다. `{% raw %}{{ form|safe }}{% endraw %}`로 summernote를 가져 올 수 있다.
+
+```html
 [...]
-<form method="post" action="{% url 'board:post_list' board.id %}">
-    {% csrf_token %}
+<form method="post" action="{% raw %}{% url 'board:post_list' board.id %}{% endraw %}">
+    {% raw %}{% csrf_token %}{% endraw %}
     <input id="id_new_post_title" name="post_title_text" placeholder="Insert Title"/><br/>
-    {{ form|safe }}
+    {% raw %}{{ form|safe }}{% endraw %}
     <br/>
     <button type="submit">등록</button>
 </form>
 [...]
-{% endraw %}{% endhighlight %}
+```
 
-*
+* `board/views.py`에 form을 렌더링 해 준다.
+
+```python
+from django.shortcuts import render, redirect
+from board.models import Post
+from board.forms import PostForm
+[...]
+def new_post(request):
+    form = PostForm()
+    return render(request, 'new_post.html', {'form': form})
+```
+
+* `board/urls.py`에 추가 해 준다.
+
+```python
+urlpatterns = [
+    url(r'^posts/new/$', views.new_post, name='new_post'),
+    [...],
+]
+```
+
+* `makemigrations`와 `migrate`를 한다.
+
+```bash
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+* 결과물은 아래와 같다. summernote까지 작업 한 [kboard](https://github.com/hyesun03/k-board/tree/d1498d997ce2d98bc3532ea334864df0a48b99be).
+![summernote 적용]({{ site.url }}/images/summernote_0.png)
