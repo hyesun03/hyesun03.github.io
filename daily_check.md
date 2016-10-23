@@ -4,7 +4,8 @@ title: Daily Check
 ---
 <br/>
 
-&nbsp;&nbsp;&nbsp; [Rescue Time](https://www.rescuetime.com/)을 쓰긴하지만 별다른 개선이 없는 것 같다. todo list 적는 것도 사실 쓸모 없는것 같다. 공개적인 곳에서 글쓴다고 어그로?라도 끌어야 규칙적으로 살려나 싶다.
+&nbsp;&nbsp;&nbsp; [Rescue Time](https://www.rescuetime.com/)을 쓰긴하지만 별다른 개선이 없는 것 같다. todo list 적는 것도 사실 쓸모 없는것 같다. 공개적인 곳에서 글쓴다고 어그로?라도 끌어야 규칙적으로 살려나 싶다.    
+
 * 체력 문제인지 집중이 잘 안됨
 * 1일 1커밋을 안함
 * 개발관련 서적을 보고 있다는 핑계로 진행하는 프로젝트 코드를 안짜는 날이 있음
