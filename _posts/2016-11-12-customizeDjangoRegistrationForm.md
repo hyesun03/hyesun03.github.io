@@ -6,19 +6,22 @@ comments: true
 &nbsp;&nbsp;&nbsp; `AbstractUser`로 상속받아서 확장하고 뭐..어떻게 하다가 잘 안되었다. github에서 `django-registration`을 사용하는 사람들의 코드를 꽤 찾아봤는데 버전별로 상이하고 버전과는 별개로 모델확장하는 방법이 다 달랐다. `kboard`프로젝트에서 별도의 `accounts`라는 이름의 앱을 만들고 `accounts`에서 작업했다. 요약을 하면 아래와 같다.
 
 * **accounts/forms.py**     
-&nbsp;&nbsp;&nbsp; Email 필드를 `unique`하게 하기 위해서 아래를 import하였음.
+&nbsp;&nbsp;&nbsp; Email 필드를 `unique`하게 하기 위해서 아래를 import 하였음
+
 ``` python
 from registration.forms import RegistrationFormUniqueEmail
 ```
 
 * **accounts/views.py**      
 &nbsp;&nbsp;&nbsp; `RegistrationView`를 상속 및 오버라이딩
+
 ``` python
 from registration.backends.hmac.views import RegistrationView
 ```
 
 * **accounts/models.py**      
 &nbsp;&nbsp;&nbsp; 각 계정을 관리하기 위해 `Account` 모델 생성
+
 ``` python
 from django.db import models
 class Account(models.Model):
@@ -64,6 +67,7 @@ username, email, password1, password2, fullName, terms
 
 ## **View**
 &nbsp;&nbsp;&nbsp; 여기서는 `register`함수를 오버라이딩 해 준다.
+
 ``` python
 from registration.backends.hmac.views import RegistrationView as BaseRegistrationView
 from .forms import RegistrationForm
