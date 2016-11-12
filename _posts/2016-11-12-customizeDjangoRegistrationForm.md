@@ -12,7 +12,7 @@ from registration.forms import RegistrationFormUniqueEmail
 ```
 
 * **accounts/views.py**      
-&nbsp;&nbsp;&nbsp; `RegistrationView`를 상속 및 재정의
+&nbsp;&nbsp;&nbsp; `RegistrationView`를 상속 및 오버라이딩
 ``` python
 from registration.backends.hmac.views import RegistrationView
 ```
@@ -29,13 +29,15 @@ class Account(models.Model):
 
 ## **Form 확장**
 &nbsp;&nbsp;&nbsp; 새로 만드는 것이 아닌 기존의 것을 확장한다. [Django의 User모델 필드 ](https://docs.djangoproject.com/en/1.10/ref/contrib/auth/#fields)를 보면 내가 원하는 필드가 전부 있지 않다. 그래서 원하는 필드를 아래와 같이 추가 해 준다.
+
 ``` python
 class RegistrationForm(RegistrationFormUniqueEmail):
     fullName = forms.CharField(max_length=150)
     terms = forms.BooleanField(error_messages={'required': _(u'You must agree to the terms to register')})
 ```
 
-&nbsp;&nbsp;&nbsp; 기존의 User모델이 제공하는 필드를 사용하기 위해서 `__init__`을 사용한다. 
+&nbsp;&nbsp;&nbsp; 기존의 User모델이 제공하는 필드를 사용하기 위해서 `__init__`을 사용한다.
+
 ``` python
 [...]
 def __init__(self, *args, **kwargs):
@@ -53,7 +55,8 @@ def __init__(self, *args, **kwargs):
 ```
 
 &nbsp;&nbsp;&nbsp; 위의 `__init__`함수를 오버라이딩하고 나서 registration form의 필드는 아래와 같다. 블로그 적으면서 **fullName** 이 이질적이라는 생각이 들었다. **fullname** 이 좀 더 나을 듯..
-```
+
+``` plain
 username, email, password1, password2, fullName, terms
 ```
 
