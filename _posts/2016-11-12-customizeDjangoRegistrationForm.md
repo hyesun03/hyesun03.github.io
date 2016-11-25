@@ -13,7 +13,7 @@ comments: true
 3. `createsuperuser`로 슈퍼유저를 생성하면 `auth_user`에 들어가고 `accounts_account`에는 들어가지 않음 (당연한 결과)    
 
 &nbsp;&nbsp;&nbsp; user가 저장되고 가져오는 테이블은 하나로 두고 superuser와 일반 user가 함께 들어가게 하고싶음.
-그래서 새로 포스팅을 했습니다. --> [AbstractBaseUser를 사용한 User모델 확장]({{ site.url }}_posts/2016-11-20-djangoAbstractBaseUser.md)     
+그래서 새로 포스팅을 했습니다. --> [AbstractBaseUser를 사용한 User모델 확장]({{ site.url }}2016/11/20/djangoAbstractBaseUser/)     
 <br/>
 <hr>
 
