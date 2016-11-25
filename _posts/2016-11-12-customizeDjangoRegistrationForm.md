@@ -3,6 +3,20 @@ layout: post
 title: django-registration form customize
 comments: true
 ---
+
+**경고! 이 포스팅은 좋지 못한 방법을 안내하고 있습니다.**
+<img src="/images/우는짤.png" alt="우는 짤" style="width: 350px; margin-left: auto; margin-right: auto; "/>
+
+&nbsp;&nbsp;&nbsp; 이 포스팅대로 하면 User모델이 확장 되긴 하지만 바람직하지 않은 방법으로 확장합니다. 문제를 찝자면..   
+1. `ForeignKey`로 user를 가져옴     
+2. `auth_user` 테이블과 `accounts_account` 테이블 2개가 생성이 되며 회원가입을 하면 두 테이블에 들어감     
+3. `createsuperuser`로 슈퍼유저를 생성하면 `auth_user`에 들어가고 `accounts_account`에는 들어가지 않음 (당연한 결과)    
+
+&nbsp;&nbsp;&nbsp; user가 저장되고 가져오는 테이블은 하나로 두고 superuser와 일반 user가 함께 들어가게 하고싶음.
+그래서 새로 포스팅을 했습니다. --> [AbstractBaseUser를 사용한 User모델 확장]({{ site.url }}_posts/2016-11-20-djangoAbstractBaseUser.md)     
+<br/>
+<hr>
+
 &nbsp;&nbsp;&nbsp; `AbstractUser`로 상속받아서 확장하고 뭐..어떻게 하다가 잘 안되었다. github에서 `django-registration`을 사용하는 사람들의 코드를 꽤 찾아봤는데 버전별로 상이하고 버전과는 별개로 모델확장하는 방법이 다 달랐다. `kboard`프로젝트에서 별도의 `accounts`라는 이름의 앱을 만들고 `accounts`에서 작업했다. 요약을 하면 아래와 같다.
 
 * **accounts/forms.py**     
