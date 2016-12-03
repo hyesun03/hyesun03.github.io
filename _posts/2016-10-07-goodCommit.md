@@ -2,6 +2,8 @@
 layout: post
 title: 바람직한 Git 커밋 메시지를 위하여
 comments: true
+tags:
+- Git
 ---
 &nbsp;&nbsp;&nbsp; 멘토님께서 바람직한 깃 커밋 메시지 작성법에 대한 포스트를 주셨다. 그러면 어떻게하면 기존의 커밋들을 변경 할 수 있는지에 대해서 알아보자.       
 

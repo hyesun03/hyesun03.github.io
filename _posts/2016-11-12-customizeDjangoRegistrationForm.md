@@ -2,6 +2,10 @@
 layout: post
 title: django-registration form customize
 comments: true
+tags:
+- Python
+- Django
+- django-registration
 ---
 
 **경고! 이 포스팅은 좋지 못한 방법을 안내하고 있습니다.**

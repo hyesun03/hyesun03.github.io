@@ -2,6 +2,8 @@
 layout: post
 title: Egoless Programming
 comments: true
+tags:
+- Egoless Programming
 ---
 &nbsp;&nbsp;&nbsp; 멘토님께서 아래의 두 링크를 주셨다. `컴퓨터 프로그래밍의 심리학`이라는 책을 한 번 찾아봐야겠다.
 

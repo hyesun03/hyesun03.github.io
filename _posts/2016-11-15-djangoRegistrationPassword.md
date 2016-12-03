@@ -2,6 +2,10 @@
 layout: post
 title: django-registration password reset, change 템플릿 customize
 comments: true
+tags:
+- Python
+- Django
+- django-registration
 ---
 &nbsp;&nbsp;&nbsp; `django-registration`을 이용한 패스워드 reset은 아래 파일만 추가해 주면 django에서 기본으로 제공해 주는 기능대로 잘 동작한다. `templates/registration/`에 아래 파일들을 추가 해 준다.
 

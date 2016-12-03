@@ -2,6 +2,10 @@
 layout: post
 title: Django selenium으로 iframe 내부에 접근하기
 comments: true
+tags:
+- Python
+- Django
+- Selenium
 ---
 &nbsp;&nbsp;&nbsp; selenium으로 테스트코드를 짜면서 iframe내부에 접근해야 할 경우가 생겼다.
 

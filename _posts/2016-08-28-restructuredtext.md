@@ -2,6 +2,9 @@
 layout: post
 title: reStructuredText
 comments: true
+tags:
+- reStructuredText
+- 미완
 ---
   &nbsp;&nbsp;&nbsp;[reStructuredText](http://docutils.sourceforge.net/rst.html)(이하 reST)는 읽기 쉽고 WYSIWYG마크업 언어이자 파서 시스템 입니다.
   간단한 웹 페이지를 빠르게 제작 할 때 인라인(in-line) 프로그램의 문서화(Python doctrings와 같은)에 유용하며 단순 문서 작성시에도 좋습니다.

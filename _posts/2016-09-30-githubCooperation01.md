@@ -2,6 +2,8 @@
 layout: post
 title: Github과 협업 1
 comments: true
+tags:
+- Github
 ---
 
 ## **Workflow**

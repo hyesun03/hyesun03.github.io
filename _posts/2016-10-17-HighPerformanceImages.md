@@ -2,6 +2,9 @@
 layout: post
 title: High Performance Images 1
 comments: true
+tags:
+- High Performance Images
+- 최적화
 ---
 <img src="/images/HighPerformanceImages_book.png" alt="HighPerformanceImages" style="width: 200px; margin-left: auto; margin-right: auto; "/>
 <br/>

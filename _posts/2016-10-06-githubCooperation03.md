@@ -2,6 +2,8 @@
 layout: post
 title: Github과 협업 3
 comments: true
+tags:
+- Github
 ---
 ## **CONFLICT 해결**
 <pre>$ git fetch upstream

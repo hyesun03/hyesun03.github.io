@@ -2,6 +2,8 @@
 layout: post
 title: Github과 협업 2
 comments: true
+tags:
+- Github
 ---
 ## **.gitignore**
 &nbsp;&nbsp;&nbsp;`.gitignore`는 git에 push할 때 올라가지 않는 파일들을 지정하는 것이다. [gitignore.io](https://www.gitignore.io/)에서 쉽게 만들 수 있으며 `PyCharm`의 경우에는  [.ignore](https://plugins.jetbrains.com/plugin/7495?pr=idea)라는 별도의 플러그인을 설치하면 편리하게 쓸 수 있다.    

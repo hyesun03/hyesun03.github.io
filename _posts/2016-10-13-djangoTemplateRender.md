@@ -2,6 +2,9 @@
 layout: post
 title: Django Template html 코드가 렌더링 되지 않는 문제
 comments: true
+tags:
+- Python
+- Django
 ---
 &nbsp;&nbsp;&nbsp; 게시판에 글을 쓰고 보는데 아래와 같이 코드가 렌더링이 되지 않고 나왔다.
 ![django template html code display in raw]({{ site.url }}/images/djangoRender_0.png)

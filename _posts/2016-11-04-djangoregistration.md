@@ -2,6 +2,11 @@
 layout: post
 title: django-registration 으로 HMAC 사용하기
 comments: true
+tags:
+- Python
+- Django
+- django-registration
+- HMAC
 ---
 &nbsp;&nbsp;&nbsp; `django-registration`은 **가입 즉시 계정이 활성화** 되는 방법 과 **메일로 인증을 거친 뒤 계정이 활성화** 되는 방법 2가지를 제공한다. [django-registration 문서](http://django-registration.readthedocs.io/en/2.1.1/index.html)를 참고하여 원하는 방향으로 만들 수 있다. 여기서는 메일 인증을 통한 회원 가입을 구현 해 볼 것이다.
 
