@@ -1,5 +1,5 @@
+<img src="/images/tag-256.png" alt="Tags: " class="tag-img"/>
 <div class="post-tags">
-  Tags:
   {% if post %}
     {% assign tags = post.tags %}
   {% else %}
@@ -9,3 +9,4 @@
   <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}
 </div>
+<br/>
