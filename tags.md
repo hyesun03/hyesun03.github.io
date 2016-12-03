@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /tags/
+title: Tags
 ---
 
 <ul class="tag-cloud">
