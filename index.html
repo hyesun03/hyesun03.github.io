@@ -13,12 +13,8 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {% include post_tags.html %}
-    <br/>
-    {{ post.content | strip_html | truncatewords: 20 }}
-    <br/>
-    <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Read more &raquo;</a>
   </div>
-  <hr style="margin: 120px 0 50px 0">
+  <hr style="margin: -50px 0 30px 0">
   {% endfor %}
 </div>
 
