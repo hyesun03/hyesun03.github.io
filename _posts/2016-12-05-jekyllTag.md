@@ -154,6 +154,21 @@ layout: default
 ```
 {% endraw %}
 
+### **사용**
+&nbsp;&nbsp;&nbsp; 아래와 같이 포스트에 태그를 붙일 수 있다.
+
+``` text
+---
+layout: post
+title: Jekyll 블로그 태그 기능 붙이기
+comments: true
+tags:
+- Jekyll
+- 블로그
+- Github
+---
+```
+
 &nbsp;&nbsp;&nbsp; 여기 까지 하면 이렇게 나온다. 사이드 바에 `Tags`항목이 들어가 있고, 포스트의 상단에 태그들이 잘 나온다.
 ![태그 사이드 바 및 상단 출력]({{ site.url }}/images/tag_side.png)
 
