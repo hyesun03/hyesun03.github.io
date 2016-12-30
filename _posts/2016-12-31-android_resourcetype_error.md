@@ -22,5 +22,5 @@ W/ResourceType: Failure getting entry for 0x010804ca (t=7 e=1226) (error -75)
 &nbsp;&nbsp;&nbsp; 안드로이드를 14년도 겨울에 앱하나 만들어보고 한 번도 해본적이 없었는데 정말 많은게 달라져 있었다. 가상머신이 빠릿빠릿하고, 프로젝트 내부에 테스트 코드 예시가 들어있다. 안드로이드 테스트 짜는것도 찾아봐야겠다.
 
 
-## 참고자료
+## **참고자료**
 * [http://csjung.tistory.com/184](http://csjung.tistory.com/184)
