@@ -27,6 +27,8 @@ SNS인데 같이 하는 사람이 없어서 안끌렸다.
 2. `'내계정이름'.github.io`로 github Repository를 생성. 내 블로그의 주소가 된다.
 3. clone해서 로컬에 받는다. 아직 아무것도 없어서 비어있는 상태다.
 4. 맥유저라면 이미 ruby가 설치 되어있다. 없으면 설치한다.
+> 만약 여기서 ruby버전이 낮아 5번을 수행 할 수 없을 경우에는 [이 글]({{ site.url }}/posts/2018-03-01-rbenv-zsh.md)을 보고 ruby 상위버전을 설치 해 주면 좋다.
+
 5. `gem install jekyll`을 하고 `jekyll serve`를 하면 `http://localhost:4000`에 jekyll로 만든 블로그가 보인다.
 `jekyll serve --watch`는 변경된 즉시(command + S) 적용되어서 로컬에서 확인가능하다.
 6. `git add --all`, `git commit -m "원하는 메세지 입력"`, `git push`를 해서 원격 저장소에 올린다.
