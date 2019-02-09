@@ -3,7 +3,7 @@ layout: post
 title: 파이썬 코딩의 기술 1
 comments: true
 tags:
-- Python
+- python
 - 파이썬 코딩의 기술
 ---
 <img src="/images/effective_python_book.jpg" alt="클린 코드를 위한 테스트 주도 개발" style="width: 200px; margin-left: auto; margin-right: auto; "/>

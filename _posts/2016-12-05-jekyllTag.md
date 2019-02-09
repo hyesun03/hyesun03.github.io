@@ -3,9 +3,9 @@ layout: post
 title: Jekyll 블로그 태그 기능 붙이기
 comments: true
 tags:
-- Jekyll
+- jekyll
 - 블로그
-- Github
+- github
 ---
 &nbsp;&nbsp;&nbsp; 포스트 글이 많아지면서 블로그를 다듬어야겠다는 생각이 들었다. 일단 생각하는것은 아래와 같다.     
 

@@ -3,9 +3,9 @@ layout: post
 title: Django 프로젝트에 summernote 붙이기
 comments: true
 tags:
-- Python
-- Django
-- Summernote
+- python
+- django
+- summernote
 - 에디터
 ---
 &nbsp;&nbsp;&nbsp; [KBoard](https://github.com/kboard/kboard)라는 프로젝트를 하는 중이다. Django기반의 게시판(커뮤니티)를 만드는 것인데 글 작성 할 때 쓰는 에디터를 붙이기로 했다. 뭘 써야할지 여러가지를 찾아봤는데 선택 기준은 아래와 같다.     

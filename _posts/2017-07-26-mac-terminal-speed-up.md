@@ -3,7 +3,7 @@ layout: post
 title: Mac 터미널 속도 향상
 comments: true
 tags:
-- Mac
+- macOS
 - terminal
 ---
 

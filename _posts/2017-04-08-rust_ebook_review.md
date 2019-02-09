@@ -3,7 +3,7 @@ layout: post
 title: 시중에서 유일한 Rust책 '러스트 핵심노트' 리뷰
 comments: true
 tags:
-- Rust
+- rust
 - 리뷰
 ---
 

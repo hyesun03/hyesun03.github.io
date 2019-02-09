@@ -3,8 +3,8 @@ layout: post
 title: Django sqlite3 table already exists 에러 해결
 comments: true
 tags:
-- Python
-- Django
+- python
+- django
 - SQLite3
 ---
 &nbsp;&nbsp;&nbsp; 작업을 끝내고 나서 makemigrations를 시도하니까 `--merge`옵션을 붙여서 진행하라고 빨간 문구가 나왔다. merge를 진행하고 나서 migrate까지 했다. 그러니까 아래의 명령어를 사용했다.

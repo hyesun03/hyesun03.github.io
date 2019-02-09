@@ -5,7 +5,6 @@ comments: true
 tags:
 - pyenv
 - zsh
-- error
 ---
 
 ``` text

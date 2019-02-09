@@ -3,8 +3,8 @@ layout: post
 title: python selenium alert내부 텍스트 가져오기
 comments: true
 tags:
-- Python
-- Selenium
+- python
+- selenium
 ---
 &nbsp;&nbsp;&nbsp; iframe에 접근했던 것 처럼 `switch_to`를 해 주면 된다.
 

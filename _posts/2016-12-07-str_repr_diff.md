@@ -3,7 +3,7 @@ layout: post
 title: __str__과 __repr__의 차이
 comments: true
 tags:
-- Python
+- python
 - Special Method
 - 전문가를 위한 파이썬
 ---

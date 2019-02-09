@@ -3,7 +3,7 @@ layout: post
 title: Ionic2 적절한 이미지 경로
 comments: true
 tags:
-- Ionic2
+- Ionic 2
 ---
 
 &nbsp;&nbsp;&nbsp; ionic2에서 이미지를 불러올 때 아래와 같은 경로로 불러 올 수 있다. `assets`앞에 `/`나 `../`를 붙이지 않도록 주의하자. `ionic serve --lab`으로 웹 브라우저상에서 볼때는 이미지가 잘 보였지만 기기에서는 잘 안보였다.

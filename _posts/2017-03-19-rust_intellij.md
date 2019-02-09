@@ -3,7 +3,7 @@ layout: post
 title: IntelliJ에서 Rust 사용하기
 comments: true
 tags:
-- Rust
+- rust
 - IntelliJ
 ---
 
