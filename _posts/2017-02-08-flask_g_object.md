@@ -3,8 +3,8 @@ layout: post
 title: Flask g 객체 (작성중)
 comments: true
 tags:
-- Python
-- Flask
+- python
+- flask
 - g
 ---
 &nbsp;&nbsp;&nbsp; g 객체에 대해서 오늘 밤에 포스팅 할 예정...

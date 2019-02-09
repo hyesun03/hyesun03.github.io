@@ -3,7 +3,7 @@ layout: post
 title: python int형 리스트 join하기
 comments: true
 tags:
-- Python
+- python
 ---
 
 &nbsp;&nbsp;&nbsp; output 출력 할 때 리스트를 적당히 다듬어서 출력할 일이 종종 있다. 계속 까먹어서 적어둠.

@@ -3,8 +3,8 @@ layout: post
 title: django-registration form customize
 comments: true
 tags:
-- Python
-- Django
+- python
+- django
 - django-registration
 ---
 

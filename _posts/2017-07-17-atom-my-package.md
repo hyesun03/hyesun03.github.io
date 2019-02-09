@@ -4,7 +4,7 @@ title: 내가 설치한 Atom package
 comments: true
 tags:
 - atom
-- package
+- 추천
 ---
 
 ## [autoclose-html](https://atom.io/packages/autoclose-html)

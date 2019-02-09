@@ -3,8 +3,8 @@ layout: post
 title: OS X Bash 키보드 단축키
 comments: true
 tags:
-- OS X
-- Bash
+- macOS
+- bash
 - 터미널
 ---
 좋은 포스팅을 찾았다.

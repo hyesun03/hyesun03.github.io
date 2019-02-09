@@ -3,7 +3,7 @@ layout: post
 title: Mac OS에 Rust 설치
 comments: true
 tags:
-- Rust
+- rust
 ---
 
 &nbsp;&nbsp;&nbsp; `러스트 핵심노트`를 어제부터 보고 있다. Chapter1까지만 읽어본 상태. 책에서는 아래의 명령어로 rust를 설치 할 것을 권장한다.

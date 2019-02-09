@@ -3,8 +3,8 @@ layout: post
 title: django-registration 으로 HMAC 사용하기
 comments: true
 tags:
-- Python
-- Django
+- python
+- django
 - django-registration
 - HMAC
 ---

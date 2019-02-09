@@ -3,8 +3,8 @@ layout: post
 title: AndroidStudio gitignore 플러그인 사용
 comments: true
 tags:
-- Git
-- AndroidStudio
+- git
+- Android Studio
 ---
 &nbsp;&nbsp;&nbsp; 글을 정말 오랜만에 쓴다. 연말 연초라고 너무 놀았다. 안드로이드 프로젝트에도 TDD를 적용할 수 있다는 것을 알고 적용해 보려고 했다. 찾아만 보고 repo생성한건 오늘이다 후..     
 

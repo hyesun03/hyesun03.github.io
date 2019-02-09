@@ -3,7 +3,7 @@ layout: post
 title: Ionic2 페이지 이동(navigation)
 comments: true
 tags:
-- Ionic2
+- Ionic 2
 ---
 
 ### **1. 페이지 생성**

@@ -3,7 +3,7 @@ layout: post
 title: Jekyll과 Github로 블로그 만들기
 comments: true
 tags:
-- Jekyll
+- jekyll
 - 블로그
 ---
 

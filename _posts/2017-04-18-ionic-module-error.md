@@ -3,7 +3,7 @@ layout: post
 title: Property 'forChild' does not exist on type 'typeof IonicModule'
 comments: true
 tags:
-- Ionic
+- Ionic 2
 ---
 &nbsp;&nbsp;&nbsp; 페이지 이동해보려고 새 페이지를 추가했는데 잘 안되었다. 분명 시키는대로 했는데.. 아래와 같이 에러가 나온다.
 

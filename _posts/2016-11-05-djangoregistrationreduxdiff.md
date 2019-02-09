@@ -3,8 +3,8 @@ layout: post
 title: django-registration vs django-registration-redux
 comments: true
 tags:
-- Python
-- Django
+- python
+- django
 - django-registration
 - django-registration-redux
 ---

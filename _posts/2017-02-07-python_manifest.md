@@ -3,7 +3,7 @@ layout: post
 title: Python MANIFEST.in 그리고 graft
 comments: true
 tags:
-- Python
+- python
 - MANIFEST.in
 - graft
 ---

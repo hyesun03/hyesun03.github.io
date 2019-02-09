@@ -3,7 +3,7 @@ layout: post
 title: Rust로 간단한 프로그램 작성해보기
 comments: true
 tags:
-- Rust
+- rust
 ---
 
 ## **rustc로 컴파일 하기**
