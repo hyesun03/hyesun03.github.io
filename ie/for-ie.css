@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    line-height: 200%;
+    color: white;
+    background: linear-gradient(to right, red, yellow, green, blue, purple);
+}
+
+.container {
+    margin: 0 auto;
+    
+}
