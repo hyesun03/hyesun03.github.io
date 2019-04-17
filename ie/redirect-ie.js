@@ -1,5 +1,5 @@
 var ua = window.navigator.userAgent;
 var isIE = /MSIE|Trident/.test(ua);
 if (isIE){
-    window.location = "{{ site.baseurl }}/ie/for-ie.html";
+    window.location = "/ie/for-ie.html";
 }
