@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GoF의 디자인 패턴 3장 Singleton 패턴 (1)
+title: GoF의 디자인 패턴 3장 Singleton 패턴 (1) 소개
 comments: true
 tags:
 - GoF 디자인 패턴
@@ -10,8 +10,9 @@ tags:
 
 1. **Singleton 왜 쓰는지와 문제점** (<- 이번 포스팅 내용)
 2. Singleton 인스턴스가 1개만 존재하도록 보장하는 방법
-3. Singleton 인스턴스가 여러 개일 수 있다고?
-4. static class랑은 뭐가 다르지?
+3. 2번에서 소개된 방법들 퍼포먼스 비교
+4. Singleton 인스턴스가 여러 개일 수 있다고?
+5. static class랑은 뭐가 다르지?
 
 
 # Singleton 왜 쓰는지
