@@ -4,6 +4,7 @@ title: GoF의 디자인 패턴 3장 Prototype 패턴
 comments: true
 tags:
 - GoF 디자인 패턴
+- java
 ---
 
 지난주에 싱글턴까지 쓸랬는데 흑흑.. 벌써 스터디가 거의 다 끝나가고있다.     

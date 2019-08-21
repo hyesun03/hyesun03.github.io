@@ -4,6 +4,7 @@ title: GoF의 디자인 패턴 3장 Singleton 패턴 (2) thread-safe한 사용�
 comments: true
 tags:
 - GoF 디자인 패턴
+- java
 ---
 
 [앞 포스팅](https://hyesun03.github.io/2019/08/16/gof-design-pattern-05-singleton-01/)에서 `멀티 쓰레드` 환경에서는 Singleton을 주의해서 사용해야 한다고 마무리 지었다.     

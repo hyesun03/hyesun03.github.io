@@ -4,6 +4,7 @@ title: GoF의 디자인 패턴 3장 Builder 패턴
 comments: true
 tags:
 - GoF 디자인 패턴
+- java
 ---
 
 이 부분 스터디 한지 한 달이나 지나서 글을 쓰게 되었다. GoF책에서 적혀져 있는 이 패턴의 정의는 아래와 같다.     

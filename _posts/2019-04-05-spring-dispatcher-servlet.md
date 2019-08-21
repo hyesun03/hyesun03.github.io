@@ -4,6 +4,7 @@ title: Spring Dispatcher Servlet
 comments: true
 tags:
 - spring boot
+- java
 ---
 
 # Dispatcher Servlet이 하는 역할

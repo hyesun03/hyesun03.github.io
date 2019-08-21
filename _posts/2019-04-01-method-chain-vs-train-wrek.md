@@ -4,6 +4,7 @@ title: 기차 충돌(Train Wrek) vs 메서드 체이닝(Method Chaining)
 comments: true
 tags:
 - clean code
+- java
 ---
 
 클린코드 6장에 기차충돌에 관한 내용이 나온다. 메서드 체이닝과 다른것임을 알긴 알겠는데, 명확하게 정리가 되지 않아서 찾아봤다.     
