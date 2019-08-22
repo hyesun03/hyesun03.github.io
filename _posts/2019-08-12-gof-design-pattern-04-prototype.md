@@ -48,7 +48,7 @@ Java에서는 [Cloneable](https://github.com/JetBrains/jdk8u_jdk/blob/master/src
 5. 모든 패턴이 그렇지만 이 프로토타입 패턴 역시 다른 패턴들과 함께 쓰일 수 있다. 예를 들면 복사해서 복사본을 리턴해주는 부분을 `팩토리 패턴`으로 구현할 수 있다.     
 
 # 기타
-1. 직렬화(serialization)가 생각나는데, deep cloning하는 대표적인 예가 될 것같다. **직렬화 역시 환형 참조 등의 문제가 생길 수 있기 때문에 그냥 벤더가 만들어둔거 써라(...)**고 책에 적혀져 있다. 한 달 전이라 뭔 상황이었는지 구체적으로 생각은 안나는데, 스터디 하다가 직렬화에 대해서 잠깐 언급 되었나봄..     
+1. 직렬화(serialization)가 생각나는데, deep cloning하는 대표적인 예가 될 것같다. **직렬화 역시 환형 참조 등의 문제가 생길 수 있기 때문에 그냥 벤더가 만들어둔거 써라(...)**고 책에 필기해놨는데... 한 달 전이라 뭔 상황이었는지 구체적으로 생각은 안난다. 스터디 하다가 직렬화에 대해서 잠깐 언급 되었나봄..     
 
 2. 이상하게 [Cloneable](https://github.com/JetBrains/jdk8u_jdk/blob/master/src/share/classes/java/lang/Cloneable.java)이 아니라 [Object](https://github.com/JetBrains/jdk8u_jdk/blob/master/src/share/classes/java/lang/Object.java)에 `clone()`이 들어있는지 의문이 들었다. [이런 글](http://iilii.egloos.com/4022941)을 찾았는데, Java에서 clone 동작에 대해서 좀 더 찾아보고 정리 해 봐야겠다.     
 
