@@ -13,6 +13,8 @@ tags:
 
 * **이 포스팅에서 진행한 예제 코드는 [여기](https://github.com/hyesun03/jmh-gradle-tutorial)에서 볼 수 있다.**     
 
+* Java 1.8, Gradle 5.2, [jmh-gradle-plugin](https://github.com/melix/jmh-gradle-plugin) 0.4.8 에서 진행했다.     
+
 # stopwatch benchmarking
 다들 흔히 알고있고 내가 미심쩍어 하는 "그 방법"인데, 검색을 하다보니 "스톱워치 벤치마킹"이라고 부르는 것을 알게되었다. 간단히 스톱워치 처럼 **(end time - start time)**을 계산하기 때문에 이런 이름이 붙은 듯.     
 
