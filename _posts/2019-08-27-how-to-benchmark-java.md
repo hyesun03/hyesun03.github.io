@@ -175,7 +175,7 @@ Error:java: Compiler control generators had thrown the unexpected exception java
 $ gradle jmh
 ```
 
-## 완성된 build.gradle 파일
+## 5) 완성된 build.gradle 파일
 ``` groovy
 plugins {
     id 'java'
@@ -207,7 +207,7 @@ jmh {
 }
 ```
 
-## 결과
+## 6) 결과
 별도의 설정없이 돌리면 iteration을 5번이나 해서(...) 샘플 하나 돌리는것도 오래걸렸다. 대략 8분 30초 걸림. 적당히 한번 돌려보고 "으음 ㅇㅋㅇㅋ" 하고 말거면 추가 설정을 해 주는것이 좋다.     
 
 `/build/reports/jmh/results.txt`로 결과 파일이 따로 만들어지는것을 알 수 있고, 원하면 파일이 생기지 않게끔 설정 할 수도 있다.     
