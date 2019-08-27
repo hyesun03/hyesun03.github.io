@@ -74,7 +74,7 @@ apply plugin: "me.champeau.gradle.jmh"
 ```
 
 ## 3) 디렉토리 구조 변경
-위에까지 하고 java파일을 만들어서 돌려봤는데, 제대로 import가 되지 않아서 의아했다. [jmh-gradle-plugin README](https://github.com/melix/jmh-gradle-plugin)에 따르면 특정 구조를 따를 것을 권고하고있다.     
+위에까지 하고 java파일을 만들어서 돌려봤는데, 제대로 import가 되지 않아서 의아했다. [jmh-gradle-plugin README](https://github.com/melix/jmh-gradle-plugin#configuration)에 따르면 특정 구조를 따를 것을 권고하고있다.     
 
 처음에 프로젝트를 생성하면 아래와 같은 구조가 만들어진다.     
 ``` text
