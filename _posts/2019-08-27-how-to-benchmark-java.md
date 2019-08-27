@@ -161,7 +161,7 @@ wrapper {
 ```
 
 ### 만날 수 있는 에러 4
-또 한가지 주의할 점은 여기서 직접적으로 main 함수를 `Run`하면 안되고 터미널에서 돌려야 된다. 아래의 명령어를 터미널에서 돌려줘야하고, IntelliJ를 포함한 IDE 내에서 **Run**을 하면 아래와 같은 에러가 나온다.     
+또 한가지 주의할 점은 여기서 직접적으로 main 함수를 `Run`하면 안되고 터미널에서 돌려야 된다. IntelliJ를 포함한 IDE 내에서 **Run**을 하면 아래와 같은 에러가 나온다.     
 ``` text
 Error:java: Compiler control generators had thrown the unexpected exception java.lang.AbstractMethodError: org.openjdk.jmh.generators.annotations.APGeneratorDestinaton.newResource(Ljava/lang/String;)Ljava/io/OutputStream;
   	at org.openjdk.jmh.generators.core.CompilerControlPlugin.finish(CompilerControlPlugin.java:103)
@@ -170,7 +170,7 @@ Error:java: Compiler control generators had thrown the unexpected exception java
 [이하 생략..]
 ```
 
-아래 명령어를 IDE내 **Terminal**에 입력하든지, 뭐 별도의 쓰고있는 터미널을 열어서 치든지 해야된다.     
+아래 명령어를 IDE내 **Terminal**에 입력하든지, 별도의 쓰고있는 터미널을 열어서 치든지 해야된다.     
 ``` bash
 $ gradle jmh
 ```
